@@ -8,7 +8,7 @@ const root = ReactDOM.createRoot(document.querySelector('#root'))
 const App = () => {
     return (
         <div>
-            <MenuItem />
+            <MenuItem text="Contact" url="/contact" />
         </div>
     )
 }
